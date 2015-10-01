@@ -542,7 +542,7 @@ p {
 3.4 Clients
 **********************************************************************/
  .client-slider img {
-    border:1px solid white;
+    /*border:1px solid white;*/
 }
 .client-slider img:hover {
     background-color:#FECE1A;
