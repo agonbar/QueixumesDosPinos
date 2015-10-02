@@ -34,7 +34,8 @@
     font-size:17px;
     line-height:20px;
 }
-.testimonial-text > a {
+.testimonial-text > a,
+.footer > p > a {
   color: #FECE1A;
   text-decoration:none;
 }
