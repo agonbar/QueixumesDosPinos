@@ -117,6 +117,9 @@ jQuery(document).ready(function($) {
 
 
   $(window).load(function() {
+
+    initializeMap();
+
     function filterPath(string) {
       return string.replace(/^\//, '').replace(
         /(index|default).[a-zA-Z]{3,4}$/, '').replace(/\/$/, '');
@@ -405,12 +408,4 @@ function initializeMap() {
     map: map,
     position: new google.maps.LatLng(lat, lon),
   });
-
-  /*var infowindow = new google.maps.InfoWindow();
-
-  google.maps.event.addListener(marker, 'click', function() {
-    infowindow.open(map, marker);
-  });*/
-
-  infowindow.open(map, marker);
 }
