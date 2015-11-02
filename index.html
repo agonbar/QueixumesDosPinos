@@ -1,474 +1,486 @@
 <!DOCTYPE html>
 <html lang="gl">
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Queixumes dos Pinos</title>
-        <!-- Load Roboto font -->
-        <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-        <!-- Load css styles -->
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-        <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css" />
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
-        <link rel="stylesheet" type="text/css" href="css/pluton.css" />
-        <!--[if IE 7]>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Queixumes dos Pinos</title>
+  <!-- Load Roboto font -->
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <!-- Load css styles -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/pluton.css" />
+  <link rel="stylesheet" type="text/css" href="css/blueimp-gallery.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-image-gallery.min.css">
+  <!--[if IE 7]>
             <link rel="stylesheet" type="text/css" href="css/pluton-ie7.css" />
         <![endif]-->
-        <link rel="stylesheet" type="text/css" href="css/jquery.cslider.css" />
-        <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" />
-        <link rel="stylesheet" type="text/css" href="css/animate.css" />
-        <!-- Fav and touch icons -->
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144.png">
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114.png">
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/apple-touch-icon-72.png">
-        <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57.png">
-        <link rel="shortcut icon" href="images/ico/favicon.ico">
-    </head>
+  <link rel="stylesheet" type="text/css" href="css/jquery.cslider.css" />
+  <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" />
+  <link rel="stylesheet" type="text/css" href="css/animate.css" />
+  <!-- Fav and touch icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/apple-touch-icon-72.png">
+  <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57.png">
+  <link rel="shortcut icon" href="images/ico/favicon.ico">
+</head>
 
-    <body>
-        <div class="navbar">
-            <div class="navbar-inner">
-                <div class="container">
-                    <a href="#" class="brand">
-                        <img src="images/logo.png" width="120" height="40" alt="Logo" />
-                        <!-- This is website logo -->
-                    </a>
-                    <!-- Navigation button, visible on small resolution -->
-                    <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                        <i class="icon-menu"></i>
-                    </button>
-                    <!-- Main navigation -->
-                    <div class="nav-collapse collapse pull-right">
-                        <ul class="nav" id="top-navigation">
-                            <li class="active"><a href="#home">Inicio</a></li>
-                            <li><a href="#service">Redes Sociais</a></li>
-                            <li><a href="#portfolio">Actuacións</a></li>
-                            <li><a href="#about">Nós</a></li>
-                            <li><a href="#clients">Revistas</a></li>
-                            <li><a href="#price">Tenda</a></li>
-                            <li><a href="#contact">Contacto</a></li>
+<body>
+  <div class="navbar">
+    <div class="navbar-inner">
+      <div class="container">
+        <a href="#" class="brand">
+          <img src="images/logo.png" width="120" height="40" alt="Logo" />
+          <!-- This is website logo -->
+        </a>
+        <!-- Navigation button, visible on small resolution -->
+        <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <i class="icon-menu"></i>
+        </button>
+        <!-- Main navigation -->
+        <div class="nav-collapse collapse pull-right">
+          <ul class="nav" id="top-navigation">
+            <li class="active"><a href="#home">Inicio</a></li>
+            <li><a href="#service">Redes Sociais</a></li>
+            <li><a href="#portfolio">Actuacións</a></li>
+            <li><a href="#about">Nós</a></li>
+            <li><a href="#clients">Revistas</a></li>
+            <li><a href="#price">Tenda</a></li>
+            <li><a href="#contact">Contacto</a></li>
 
-                        </ul>
-                    </div>
-                    <!-- End main navigation -->
-                </div>
-            </div>
+          </ul>
         </div>
-        <!-- Start home section -->
-        <div id="home">
-            <!-- Start cSlider -->
-            <div id="da-slider" class="da-slider">
-                <div class="triangle"></div>
-                <!-- mask elemet use for masking background image -->
-                <div class="mask"></div>
-                <!-- All slides centred in container element -->
-                <div class="container">
-                    <!-- Start first slide -->
-                    <div class="da-slide">
-                        <h2 class="fittext2">Benvido a Queixumes dos Pinos</h2>
-                        <h4>Asociación cultural</h4>
-                        <p> Queixumes dos pinos non é só un grupo de danza, é tamén unha asociación cultural e social que desenvolve actos e actividades relacionados coa nosa cultura, en Ourense en en outros lugares de Galicia e do mundo.</p>
-                        <!--<a href="#" class="da-link button">Cóntame máis</a>-->
-                        <div class="da-img">
-                            <img src="images/Slider01.png" height="285" alt="image01" width="200">
-                        </div>
-                    </div>
-                    <!-- End first slide -->
-                    <!-- Start second slide -->
-                    <div class="da-slide">
-                        <h2>Lanzamento da nova páxina</h2>
-                        <h4>www.queixumesdospinos.com</h4>
-                        <p>Co comezo do novo curso lanzamos a nova web, con novo deseño compatible có movil. Polo de agora só contén os contidos da vella, pero mantédevos atentos das próximas novidades</p>
-                        <!--<a href="#" class="da-link button">Cóntame máis</a>-->
-                        <div class="da-img">
-                            <img src="images/Slider02.png" height="285" alt="image02">
-                        </div>
-                    </div>
-                    <!-- End second slide -->
-                    <!-- Start third slide -->
-                    <div class="da-slide">
-                        <h2>¿Botas algo en falta?</h2>
-                        <h4>Non temas!</h4>
-                        <p>Os nosos duendes máxicos creen que tódolo importante está na nova web. Pero como algún que outro sempre queda durmido, pode que falte algo, podes acceder premendo no seguinte enlace.</p>
-                        <a href="http://www.queixumesdospinos.blogspot.com" class="da-link button">Á páxina vella</a>
-                        <div class="da-img">
-                            <img src="images/Slider03.png" height="285" width="320" alt="image03">
-                        </div>
-                    </div>
-                    <!-- Start third slide -->
-                    <!-- Start cSlide navigation arrows -->
-                    <div class="da-arrows">
-                        <span class="da-arrows-prev"></span>
-                        <span class="da-arrows-next"></span>
-                    </div>
-                    <!-- End cSlide navigation arrows -->
-                </div>
-            </div>
+        <!-- End main navigation -->
+      </div>
+    </div>
+  </div>
+  <!-- Start home section -->
+  <div id="home">
+    <!-- Start cSlider -->
+    <div id="da-slider" class="da-slider">
+      <div class="triangle"></div>
+      <!-- mask elemet use for masking background image -->
+      <div class="mask"></div>
+      <!-- All slides centred in container element -->
+      <div class="container">
+        <!-- Start first slide -->
+        <div class="da-slide">
+          <h2 class="fittext2">Benvido a Queixumes dos Pinos</h2>
+          <h4>Asociación cultural</h4>
+          <p> Queixumes dos pinos non é só un grupo de danza, é tamén unha asociación cultural e social que desenvolve actos e actividades relacionados coa nosa cultura, en Ourense en en outros lugares de Galicia e do mundo.</p>
+          <!--<a href="#" class="da-link button">Cóntame máis</a>-->
+          <div class="da-img">
+            <img src="images/Slider01.png" height="285" alt="image01" width="200">
+          </div>
         </div>
-        <!-- End home section -->
-        <!-- Service section start -->
-        <div class="section primary-section" id="service">
-            <div class="container">
-                <!-- Start title section -->
-                <div class="title">
-                    <h1>Síguenos nas redes sociais</h1>
-                    <!-- Section's title goes here -->
-                    <p>Para manterte sempre ó tanto das últimas novas e as próximas actuacións.</p>
-                    <!--Simple description for section goes here. -->
-                </div>
-                <div class="row-fluid">
-                    <div class="span4">
-                        <div class="centered service">
-                            <div class="circle-border zoom-in">
-                                <a href="https://www.facebook.com/QueixumesDosPinos">
-                                <img class="img-circle" src="images/Service1.png" width="150" height="150" alt="service 1"></a>
-                            </div>
-                            <h3>Facebook</h3>
-                            <p>Entérate das últimas novas do grupo.</p>
-                        </div>
-                    </div>
-                    <div class="span4">
-                        <div class="centered service">
-                            <div class="circle-border zoom-in">
-                              <a href="https://www.youtube.com/user/queixumesdospinos/videos">
-                                <img class="img-circle" src="images/Service2.png" width="150" height="150" alt="service 2" /></a>
-                            </div>
-                            <h3>Youtube</h3>
-                            <p>Subiremos os vídeos das nosas actuacións sempre que podamos.</p>
-                        </div>
-                    </div>
-                    <div class="span4">
-                        <div class="centered service">
-                            <div class="circle-border zoom-in">
-                              <a href="https://twitter.com/queixumespinos">
-                                <img class="img-circle" src="images/Service3.png" width="150" height="150" alt="service 3"></a>
-                            </div>
-                            <h3>Twitter</h3>
-                            <p>Para estar ó segundo enterado do que pasa.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <!-- End first slide -->
+        <!-- Start second slide -->
+        <div class="da-slide">
+          <h2>Lanzamento da nova páxina</h2>
+          <h4>www.queixumesdospinos.com</h4>
+          <p>Co comezo do novo curso lanzamos a nova web, con novo deseño compatible có movil. Polo de agora só contén os contidos da vella, pero mantédevos atentos das próximas novidades</p>
+          <!--<a href="#" class="da-link button">Cóntame máis</a>-->
+          <div class="da-img">
+            <img src="images/Slider02.png" height="285" alt="image02">
+          </div>
         </div>
-        <!-- Service section end -->
-        <!-- Portfolio section start -->
-        <div class="section secondary-section " id="portfolio">
-            <div class="triangle"></div>
-            <div class="container">
-                <div class=" title">
-                    <h1>Últimos eventos</h1>
-                    <p>Estos son os últimos eventos do grupo.</p>
-                </div>
-                <ul class="nav nav-pills">
-                    <li class="filter" data-filter="all">
-                        <a href="#noAction">Todo</a>
-                    </li>
-                    <li class="filter" data-filter="pobos">
-                        <a href="#noAction">Pobos</a>
-                    </li>
-                    <li class="filter" data-filter="eventos">
-                        <a href="#noAction">Eventos</a>
-                    </li>
-                    <li class="filter" data-filter="internacional">
-                        <a href="#noAction">Internacional</a>
-                    </li>
-                </ul>
-                <!-- Start details for portfolio project 1 -->
-                <div id="single-project">
-                    <div id="slidingDiv" class="toggleDiv row-fluid single-project">
-                        <div class="span6">
-                            <img src="images/Portfolio01.png" a width="640" height="400"lt="project 1" />
-                        </div>
-                        <div class="span6">
-                            <div class="project-description">
-                                <div class="project-title clearfix">
-                                    <h3>Alberobello</h3>
-                                    <span class="show_hide close">
-                                        <i class="icon-cancel"></i>
-                                    </span>
-                                </div>
-                                <div class="project-info"></div>
-                                <p>Believe in yourself! Have faith in your abilities! Without a humble but reasonable confidence in your own powers you cannot be successful or happy.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End details for portfolio project 1 -->
-                    <!-- Start details for portfolio project 2 -->
-                    <div id="slidingDiv1" class="toggleDiv row-fluid single-project">
-                        <div class="span6">
-                            <img src="images/Portfolio02.png" a width="640" height="400"alt="project 2">
-                        </div>
-                        <div class="span6">
-                            <div class="project-description">
-                                <div class="project-title clearfix">
-                                    <h3>Belen viviente</h3>
-                                    <span class="show_hide close">
-                                        <i class="icon-cancel"></i>
-                                    </span>
-                                </div>
-                                <div class="project-info"></div>
-                                <p>Life is a song - sing it. Life is a game - play it. Life is a challenge - meet it. Life is a dream - realize it. Life is a sacrifice - offer it. Life is love - enjoy it.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End details for portfolio project 2 -->
-                    <!-- Start details for portfolio project 3 -->
-                    <div id="slidingDiv2" class="toggleDiv row-fluid single-project">
-                        <div class="span6">
-                            <img src="images/Portfolio03.png" a width="640" height="400"lt="project 3">
-                        </div>
-                        <div class="span6">
-                            <div class="project-description">
-                                <div class="project-title clearfix">
-                                    <h3>Belgrado</h3>
-                                    <span class="show_hide close">
-                                        <i class="icon-cancel"></i>
-                                    </span>
-                                </div>
-                                <div class="project-info"></div>
-                                <p>How far you go in life depends on your being tender with the young, compassionate with the aged, sympathetic with the striving and tolerant of the weak and strong. Because someday in your life you will have been all of these.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End details for portfolio project 3 -->
-                    <!-- Start details for portfolio project 4 -->
-                    <div id="slidingDiv3" class="toggleDiv row-fluid single-project">
-                        <div class="span6">
-                            <img src="images/Portfolio04.png" a width="640" height="400"lt="project 4">
-                        </div>
-                        <div class="span6">
-                            <div class="project-description">
-                                <div class="project-title clearfix">
-                                    <h3>Corpues Ourense</h3>
-                                    <span class="show_hide close">
-                                        <i class="icon-cancel"></i>
-                                    </span>
-                                </div>
-                                <div class="project-info"></div>
-                                <p>Life's but a walking shadow, a poor player, that struts and frets his hour upon the stage, and then is heard no more; it is a tale told by an idiot, full of sound and fury, signifying nothing.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End details for portfolio project 4 -->
-                    <!-- Start details for portfolio project 5 -->
-                    <div id="slidingDiv4" class="toggleDiv row-fluid single-project">
-                        <div class="span6">
-                            <img src="images/Portfolio05.png" a width="640" height="400"lt="project 5">
-                        </div>
-                        <div class="span6">
-                            <div class="project-description">
-                                <div class="project-title clearfix">
-                                    <h3>Rumanía</h3>
-                                    <span class="show_hide close">
-                                        <i class="icon-cancel"></i>
-                                    </span>
-                                </div>
-                                <div class="project-info"></div>
-                                <p>We need to give each other the space to grow, to be ourselves, to exercise our diversity. We need to give each other space so that we may both give and receive such beautiful things as ideas, openness, dignity, joy, healing, and inclusion.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End details for portfolio project 5 -->
-                    <!-- Start details for portfolio project 6 -->
-                    <div id="slidingDiv5" class="toggleDiv row-fluid single-project">
-                        <div class="span6">
-                            <img src="images/Portfolio06.png" width="640" height="400" lt="project 6">
-                            <img src="images/Portfolio06-2.png" width="270" height="200" lt="project 6">
-                            <img style=" float:right;" src="images/Portfolio06-3.png" width="270" height="200" lt="project 6">
-                        </div>
-                        <div class="span6">
-                            <div class="project-description">
-                                <div class="project-title clearfix">
-                                    <h3>Promoción da música e canto de Galicia en Cataluña</h3>
-                                    <span class="show_hide close">
-                                        <i class="icon-cancel"></i>
-                                    </span>
-                                </div>
-                                <div class="project-info"></div>
-                                <p>Queixumes dos Pinos é o organizador do programa 'Promocion da música e canto de Galicia en Cataluña'. Tratouse de sete días dende o 27 de xuño ó 2 de xullo na Plaza Pere Torrent de Lloret de Mar cheos de actividades culturais de promoción de Galicia en terras de Cataluña</p>
-				<p>O programa está baseado na convivencia cultural. Os mozos e mozas participantes conviven con outros xóvenes chegados de distintos puntos de España e de Europa amosando a música, o folclore e os cantos identificativos de cada país, en especial no que a nos nos atingue do galego.</p>
-				<p>Convivencia, espacio multicultural liderado pola promoción das músicas, os cantos de Galicia e o seu folclore no cal persoas de multitude de nacionalidades o disfrutan a través dos espectáculos que se ofrece o publico e que xera un interés especial acerca de Galicia e o seu patrimonio inmaterial. Este programa resulta ser un escaparate de Galicia en Cataluña.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End details for portfolio project 6 -->
-                    <!-- Start details for portfolio project 7 -->
-                    <div id="slidingDiv6" class="toggleDiv row-fluid single-project">
-                        <div class="span6">
-                            <img src="images/Portfolio07.png" a width="640" height="400"lt="project 7">
-                        </div>
-                        <div class="span6">
-                            <div class="project-description">
-                                <div class="project-title clearfix">
-                                    <h3>Magosto</h3>
-                                    <span class="show_hide close">
-                                        <i class="icon-cancel"></i>
-                                    </span>
-                                </div>
-                                <div class="project-info"></div>
-                                <p>Always continue the climb. It is possible for you to do whatever you choose, if you first get to know who you are and are willing to work with a power that is greater than ourselves to do it.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End details for portfolio project 7 -->
-                    <!-- Start details for portfolio project 8 -->
-                    <div id="slidingDiv7" class="toggleDiv row-fluid single-project">
-                        <div class="span6">
-                            <img src="images/Portfolio08.png" a width="640" height="400"lt="project 8">
-                        </div>
-                        <div class="span6">
-                            <div class="project-description">
-                                <div class="project-title clearfix">
-                                    <h3>Domingos en festa</h3>
-                                    <span class="show_hide close">
-                                        <i class="icon-cancel"></i>
-                                    </span>
-                                </div>
-                                <div class="project-info"></div>
-                                <p>What if you gave someone a gift, and they neglected to thank you for it - would you be likely to give them another? Life is the same way. In order to attract more of the blessings that life has to offer, you must truly appreciate what you already have.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End details for portfolio project 8 -->
-                    <!-- Start details for portfolio project 9 -->
-                    <div id="slidingDiv8" class="toggleDiv row-fluid single-project">
-                        <div class="span6">
-                            <img src="images/Portfolio09.png" a width="640" height="400"lt="project 9">
-                        </div>
-                        <div class="span6">
-                            <div class="project-description">
-                                <div class="project-title clearfix">
-                                    <h3>Quintela</h3>
-                                    <span class="show_hide close">
-                                        <i class="icon-cancel"></i>
-                                    </span>
-                                </div>
-                                <div class="project-info"></div>
-                                <p>I learned that we can do anything, but we can't do everything... at least not at the same time. So think of your priorities not in terms of what activities you do, but when you do them. Timing is everything.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End details for portfolio project 9 -->
-                    <ul id="portfolio-grid" class="thumbnails row">
-                        <li class="span4 mix internacional">
-                            <div class="thumbnail">
-                                <img src="images/Portfolio01.png" width="640" height="400" alt="project 1">
-                                <a href="#single-project" class="more show_hide" rel="#slidingDiv">
-                                    <i class="icon-plus"></i>
-                                </a>
-                                <h3>Alberobello</h3>
-                                <p>Viaxe por italia</p>
-                                <div class="mask"></div>
-                            </div>
-                        </li>
-                        <li class="span4 mix eventos">
-                            <div class="thumbnail">
-                                <img src="images/Portfolio02.png" width="640" height="400" alt="project 2">
-                                <a href="#single-project" class="show_hide more" rel="#slidingDiv1">
-                                    <i class="icon-plus"></i>
-                                </a>
-                                <h3>Belen viviente</h3>
-                                <p>En navidades</p>
-                                <div class="mask"></div>
-                            </div>
-                        </li>
-                        <li class="span4 mix internacional">
-                            <div class="thumbnail">
-                                <img src="images/Portfolio03.png" width="640" height="400" alt="project 3">
-                                <a href="#single-project" class="more show_hide" rel="#slidingDiv2">
-                                    <i class="icon-plus"></i>
-                                </a>
-                                <h3>Belgrado</h3>
-                                <p>Viaxe por Serbia</p>
-                                <div class="mask"></div>
-                            </div>
-                        </li>
-                        <li class="span4 mix eventos">
-                            <div class="thumbnail">
-                                <img src="images/Portfolio04.png" width="640" height="400" alt="project 4">
-                                <a href="#single-project" class="show_hide more" rel="#slidingDiv3">
-                                    <i class="icon-plus"></i>
-                                </a>
-                                <h3>Corpus Ourense</h3>
-                                <p>Festividade do Corpus Christi</p>
-                                <div class="mask"></div>
-                            </div>
-                        </li>
-                        <li class="span4 mix internacional">
-                            <div class="thumbnail">
-                                <img src="images/Portfolio05.png" width="640" height="400" alt="project 5">
-                                <a href="#single-project" class="show_hide more" rel="#slidingDiv4">
-                                    <i class="icon-plus"></i>
-                                </a>
-                                <h3>Rumanía</h3>
-                                <p>Viaxe polo país</p>
-                                <div class="mask"></div>
-                            </div>
-                        </li>
-                        <li class="span4 mix eventos">
-                            <div class="thumbnail">
-                                <img src="images/Portfolio06.png" width="640" height="400" alt="project 6">
-                                <a href="#single-project" class="show_hide more" rel="#slidingDiv5">
-                                    <i class="icon-plus"></i>
-                                </a>
-                                <h3>Cultura galega en Cataluña</h3>
-                                <p>Progama de dinamización de canto e música tradicional en Cataluña</p>
-                                <div class="mask"></div>
-                            </div>
-                        </li>
-                        <li class="span4 mix eventos">
-                            <div class="thumbnail">
-                                <img src="images/Portfolio07.png" width="640" height="400" alt="project 7" />
-                                <a href="#single-project" class="show_hide more" rel="#slidingDiv6">
-                                    <i class="icon-plus"></i>
-                                </a>
-                                <h3>Magosto</h3>
-                                <p>Animación en diversas asociaciones e pobos</p>
-                                <div class="mask"></div>
-                            </div>
-                        </li>
-                        <li class="span4 mix pobos">
-                            <div class="thumbnail">
-                                <img src="images/Portfolio08.png" width="640" height="400" alt="project 8">
-                                <a href="#single-project" class="show_hide more" rel="#slidingDiv7">
-                                    <i class="icon-plus"></i>
-                                </a>
-                                <h3>Domingos en festa</h3>
-                                <p>No local de Ourense</p>
-                                <div class="mask"></div>
-                            </div>
-                        </li>
-                        <li class="span4 mix pobos">
-                            <div class="thumbnail">
-                                <img src="images/Portfolio09.png" width="640" height="400" alt="project 9">
-                                <a href="#single-project" class="show_hide more" rel="#slidingDiv8">
-                                    <i class="icon-plus"></i>
-                                </a>
-                                <h3>Quintela</h3>
-                                <p>Visita polas festas</p>
-                                <div class="mask"></div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+        <!-- End second slide -->
+        <!-- Start third slide -->
+        <div class="da-slide">
+          <h2>¿Botas algo en falta?</h2>
+          <h4>Non temas!</h4>
+          <p>Os nosos duendes máxicos creen que tódolo importante está na nova web. Pero como algún que outro sempre queda durmido, pode que falte algo, podes acceder premendo no seguinte enlace.</p>
+          <a href="http://www.queixumesdospinos.blogspot.com" class="da-link button">Á páxina vella</a>
+          <div class="da-img">
+            <img src="images/Slider03.png" height="285" width="320" alt="image03">
+          </div>
         </div>
-        <!-- Portfolio section end -->
-        <!-- About us section start -->
-        <div class="section primary-section" id="about">
-            <div class="triangle"></div>
-            <div class="container">
-                <div class="title">
-                    <h1>Quen somos?</h1>
-                    <p>Todo esto non sería posible sen o traballo desta xente.</p>
-                </div>
-                <div class="row-fluid team">
-                    <div class="span4" id="first-person">
-                        <div class="thumbnail">
-                            <img src="images/Team1.png" height="348" width="348" alt="team 1">
-                            <h3>José Antonio Viñas</h3>
-                            <!--<ul class="social">
+        <!-- Start third slide -->
+        <!-- Start cSlide navigation arrows -->
+        <div class="da-arrows">
+          <span class="da-arrows-prev"></span>
+          <span class="da-arrows-next"></span>
+        </div>
+        <!-- End cSlide navigation arrows -->
+      </div>
+    </div>
+  </div>
+  <!-- End home section -->
+  <!-- Service section start -->
+  <div class="section primary-section" id="service">
+    <div class="container">
+      <!-- Start title section -->
+      <div class="title">
+        <h1>Síguenos nas redes sociais</h1>
+        <!-- Section's title goes here -->
+        <p>Para manterte sempre ó tanto das últimas novas e as próximas actuacións.</p>
+        <!--Simple description for section goes here. -->
+      </div>
+      <div class="row-fluid">
+        <div class="span4">
+          <div class="centered service">
+            <div class="circle-border zoom-in">
+              <a href="https://www.facebook.com/QueixumesDosPinos">
+                <img class="img-circle" src="images/Service1.png" width="150" height="150" alt="service 1"></a>
+            </div>
+            <h3>Facebook</h3>
+            <p>Entérate das últimas novas do grupo.</p>
+          </div>
+        </div>
+        <div class="span4">
+          <div class="centered service">
+            <div class="circle-border zoom-in">
+              <a href="https://www.youtube.com/user/queixumesdospinos/videos">
+                <img class="img-circle" src="images/Service2.png" width="150" height="150" alt="service 2" /></a>
+            </div>
+            <h3>Youtube</h3>
+            <p>Subiremos os vídeos das nosas actuacións sempre que podamos.</p>
+          </div>
+        </div>
+        <div class="span4">
+          <div class="centered service">
+            <div class="circle-border zoom-in">
+              <a href="https://twitter.com/queixumespinos">
+                <img class="img-circle" src="images/Service3.png" width="150" height="150" alt="service 3"></a>
+            </div>
+            <h3>Twitter</h3>
+            <p>Para estar ó segundo enterado do que pasa.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Service section end -->
+  <!-- Portfolio section start -->
+  <div class="section secondary-section " id="portfolio">
+    <div class="triangle"></div>
+    <div class="container">
+      <div class=" title">
+        <h1>Últimos eventos</h1>
+        <p>Estos son os últimos eventos do grupo.</p>
+      </div>
+      <ul class="nav nav-pills">
+        <li class="filter" data-filter="all">
+          <a href="#noAction">Todo</a>
+        </li>
+        <li class="filter" data-filter="pobos">
+          <a href="#noAction">Pobos</a>
+        </li>
+        <li class="filter" data-filter="eventos">
+          <a href="#noAction">Eventos</a>
+        </li>
+        <li class="filter" data-filter="internacional">
+          <a href="#noAction">Internacional</a>
+        </li>
+      </ul>
+      <!-- Start details for portfolio project 1 -->
+      <div id="single-project">
+        <div id="slidingDiv" class="toggleDiv row-fluid single-project">
+          <div class="span6">
+            <img src="images/Portfolio01.png" a width="640" height="400" lt="project 1" />
+          </div>
+          <div class="span6">
+            <div class="project-description">
+              <div class="project-title clearfix">
+                <h3>Alberobello</h3>
+                <span class="show_hide close"><i class="icon-cancel"></i></span>
+              </div>
+              <div class="project-info"></div>
+              <p>Believe in yourself! Have faith in your abilities! Without a humble but reasonable confidence in your own powers you cannot be successful or happy.</p>
+            </div>
+          </div>
+        </div>
+        <!-- End details for portfolio project 1 -->
+        <!-- Start details for portfolio project 2 -->
+        <div id="slidingDiv1" class="toggleDiv row-fluid single-project">
+          <div class="span6">
+            <img src="images/Portfolio02.png" a width="640" height="400" alt="project 2">
+          </div>
+          <div class="span6">
+            <div class="project-description">
+              <div class="project-title clearfix">
+                <h3>Belen viviente</h3>
+                <span class="show_hide close"><i class="icon-cancel"></i></span>
+              </div>
+              <div class="project-info"></div>
+              <p>Life is a song - sing it. Life is a game - play it. Life is a challenge - meet it. Life is a dream - realize it. Life is a sacrifice - offer it. Life is love - enjoy it.</p>
+            </div>
+          </div>
+        </div>
+        <!-- End details for portfolio project 2 -->
+        <!-- Start details for portfolio project 3 -->
+        <div id="slidingDiv2" class="toggleDiv row-fluid single-project">
+          <div class="span6">
+            <img src="images/Portfolio03.png" a width="640" height="400" lt="project 3">
+          </div>
+          <div class="span6">
+            <div class="project-description">
+              <div class="project-title clearfix">
+                <h3>Belgrado</h3>
+                <span class="show_hide close"><i class="icon-cancel"></i></span>
+              </div>
+              <div class="project-info"></div>
+              <p>How far you go in life depends on your being tender with the young, compassionate with the aged, sympathetic with the striving and tolerant of the weak and strong. Because someday in your life you will have been all of these.</p>
+            </div>
+          </div>
+        </div>
+        <!-- End details for portfolio project 3 -->
+        <!-- Start details for portfolio project 4 -->
+        <div id="slidingDiv3" class="toggleDiv row-fluid single-project">
+          <div class="span6">
+            <img src="images/Portfolio04.png" a width="640" height="400" lt="project 4">
+          </div>
+          <div class="span6">
+            <div class="project-description">
+              <div class="project-title clearfix">
+                <h3>Corpues Ourense</h3>
+                <span class="show_hide close"><i class="icon-cancel"></i></span>
+              </div>
+              <div class="project-info"></div>
+              <p>Life's but a walking shadow, a poor player, that struts and frets his hour upon the stage, and then is heard no more; it is a tale told by an idiot, full of sound and fury, signifying nothing.</p>
+            </div>
+          </div>
+        </div>
+        <!-- End details for portfolio project 4 -->
+        <!-- Start details for portfolio project 5 -->
+        <div id="slidingDiv4" class="toggleDiv row-fluid single-project">
+          <div class="span6">
+            <img src="images/Portfolio05.png" a width="640" height="400" lt="project 5">
+          </div>
+          <div class="span6">
+            <div class="project-description">
+              <div class="project-title clearfix">
+                <h3>Rumanía</h3>
+                <span class="show_hide close"><i class="icon-cancel"></i></span>
+              </div>
+              <div class="project-info"></div>
+              <p>We need to give each other the space to grow, to be ourselves, to exercise our diversity. We need to give each other space so that we may both give and receive such beautiful things as ideas, openness, dignity, joy, healing, and inclusion.</p>
+            </div>
+          </div>
+        </div>
+        <!-- End details for portfolio project 5 -->
+        <!-- Start details for portfolio project 6 -->
+        <div id="slidingDiv5" class="toggleDiv row-fluid single-project">
+          <div class="span6">
+            <!--<img src="images/Portfolio06.png" width="640" height="400" lt="project 6">
+            <img src="images/Portfolio06-2.png" width="270" height="200" lt="project 6">
+            <img style=" float:right;" src="images/Portfolio06-3.png" width="270" height="200" lt="project 6">-->
+            <div id="links">
+              <a href="images/Portfolio06-2.png" title="Banana" data-gallery>
+                <img src="images/Portfolio06-2.png" alt="images/Portfolio06-2.png">
+              </a>
+              <a href="images/Portfolio06-3.png" title="Apple" data-gallery>
+                <img class="secundaria" src="images/Portfolio06-3.png" alt="images/Portfolio06-3.png">
+              </a>
+              <a href="images/Portfolio06.png" title="Orange" data-gallery>
+                <img class="secundaria" src="images/Portfolio06.png" alt="images/Portfolio06.png">
+              </a>
+              <a href="images/Portfolio06-4.png" title="Banana" data-gallery>
+                <img class="secundaria" src="images/Portfolio06-4.png" alt="images/Portfolio06-4.png">
+              </a>
+              <a href="images/Portfolio06-5.png" title="Apple" data-gallery>
+                <img class="secundaria" src="images/Portfolio06-5.png" alt="images/Portfolio06-5.png">
+              </a>
+              <a href="images/Portfolio06-6.png" title="Orange" data-gallery>
+                <img class="secundaria" src="images/Portfolio06-6.png" alt="images/Portfolio06-6.png">
+              </a>
+            </div>
+          </div>
+          <div class="span6">
+            <div class="project-description">
+              <div class="project-title clearfix">
+                <h3>Promoción da música e canto de Galicia en Cataluña</h3>
+                <span class="show_hide close"><i class="icon-cancel"></i></span>
+              </div>
+              <div class="project-info"></div>
+              <p>Queixumes dos Pinos é o organizador do programa 'Promocion da música e canto de Galicia en Cataluña'. Tratouse de sete días dende o 27 de xuño ó 2 de xullo na Plaza Pere Torrent de Lloret de Mar cheos de actividades culturais de promoción
+                de Galicia en terras de Cataluña</p>
+              <p>O programa está baseado na convivencia cultural. Os mozos e mozas participantes conviven con outros xóvenes chegados de distintos puntos de España e de Europa amosando a música, o folclore e os cantos identificativos de cada país, en especial
+                no que a nos nos atingue do galego.</p>
+              <p>Convivencia, espacio multicultural liderado pola promoción das músicas, os cantos de Galicia e o seu folclore no cal persoas de multitude de nacionalidades o disfrutan a través dos espectáculos que se ofrece o publico e que xera un interés
+                especial acerca de Galicia e o seu patrimonio inmaterial. Este programa resulta ser un escaparate de Galicia en Cataluña.</p>
+              <p>Este ano participaron grupos de Galicia da provincia de A Coruña tanto de pandereteiras coma de corais, tamén a provincia de Pontevedra coa participación dunha coral, e grupo de baile e pandereteiro da provincia de Ourense foron os que representaron
+                a cultura Galega neste evento.</p>
+              <p>En total máis de 150 artistas da nosa terra levarona as nosas músicas e cantos para que o público de Cataluña o disfrutase asi como aquel procedente doutras partes do mundo que pasaban uns días por esas terras.</p>
+              <p>A música de Galicia encandilou ó numeroso publico que asistiu os espectáculos coñecendo un pouco máis de cerca a nosa terra e un anaco do seu patrimonio inmaterial.</p>
+            </div>
+          </div>
+        </div>
+        <!-- End details for portfolio project 6 -->
+        <!-- Start details for portfolio project 7 -->
+        <div id="slidingDiv6" class="toggleDiv row-fluid single-project">
+          <div class="span6">
+            <img src="images/Portfolio07.png" a width="640" height="400" lt="project 7">
+          </div>
+          <div class="span6">
+            <div class="project-description">
+              <div class="project-title clearfix">
+                <h3>Magosto</h3>
+                <span class="show_hide close"><i class="icon-cancel"></i></span>
+              </div>
+              <div class="project-info"></div>
+              <p>Always continue the climb. It is possible for you to do whatever you choose, if you first get to know who you are and are willing to work with a power that is greater than ourselves to do it.</p>
+            </div>
+          </div>
+        </div>
+        <!-- End details for portfolio project 7 -->
+        <!-- Start details for portfolio project 8 -->
+        <div id="slidingDiv7" class="toggleDiv row-fluid single-project">
+          <div class="span6">
+            <img src="images/Portfolio08.png" a width="640" height="400" lt="project 8">
+          </div>
+          <div class="span6">
+            <div class="project-description">
+              <div class="project-title clearfix">
+                <h3>Domingos en festa</h3>
+                <span class="show_hide close"><i class="icon-cancel"></i></span>
+              </div>
+              <div class="project-info"></div>
+              <p>What if you gave someone a gift, and they neglected to thank you for it - would you be likely to give them another? Life is the same way. In order to attract more of the blessings that life has to offer, you must truly appreciate what you
+                already have.</p>
+            </div>
+          </div>
+        </div>
+        <!-- End details for portfolio project 8 -->
+        <!-- Start details for portfolio project 9 -->
+        <div id="slidingDiv8" class="toggleDiv row-fluid single-project">
+          <div class="span6">
+            <img src="images/Portfolio09.png" a width="640" height="400" lt="project 9">
+          </div>
+          <div class="span6">
+            <div class="project-description">
+              <div class="project-title clearfix">
+                <h3>Quintela</h3>
+                <span class="show_hide close"><i class="icon-cancel"></i></span>
+              </div>
+              <div class="project-info"></div>
+              <p>I learned that we can do anything, but we can't do everything... at least not at the same time. So think of your priorities not in terms of what activities you do, but when you do them. Timing is everything.</p>
+            </div>
+          </div>
+        </div>
+        <!-- End details for portfolio project 9 -->
+        <ul id="portfolio-grid" class="thumbnails row">
+          <li class="span4 mix internacional">
+            <div class="thumbnail">
+              <img src="images/Portfolio01.png" width="640" height="400" alt="project 1">
+              <a href="#single-project" class="more show_hide" rel="#slidingDiv">
+                <i class="icon-plus"></i>
+              </a>
+              <h3>Alberobello</h3>
+              <p>Viaxe por italia</p>
+              <div class="mask"></div>
+            </div>
+          </li>
+          <li class="span4 mix eventos">
+            <div class="thumbnail">
+              <img src="images/Portfolio02.png" width="640" height="400" alt="project 2">
+              <a href="#single-project" class="show_hide more" rel="#slidingDiv1">
+                <i class="icon-plus"></i>
+              </a>
+              <h3>Belen viviente</h3>
+              <p>En navidades</p>
+              <div class="mask"></div>
+            </div>
+          </li>
+          <li class="span4 mix internacional">
+            <div class="thumbnail">
+              <img src="images/Portfolio03.png" width="640" height="400" alt="project 3">
+              <a href="#single-project" class="more show_hide" rel="#slidingDiv2">
+                <i class="icon-plus"></i>
+              </a>
+              <h3>Belgrado</h3>
+              <p>Viaxe por Serbia</p>
+              <div class="mask"></div>
+            </div>
+          </li>
+          <li class="span4 mix eventos">
+            <div class="thumbnail">
+              <img src="images/Portfolio04.png" width="640" height="400" alt="project 4">
+              <a href="#single-project" class="show_hide more" rel="#slidingDiv3">
+                <i class="icon-plus"></i>
+              </a>
+              <h3>Corpus Ourense</h3>
+              <p>Festividade do Corpus Christi</p>
+              <div class="mask"></div>
+            </div>
+          </li>
+          <li class="span4 mix internacional">
+            <div class="thumbnail">
+              <img src="images/Portfolio05.png" width="640" height="400" alt="project 5">
+              <a href="#single-project" class="show_hide more" rel="#slidingDiv4">
+                <i class="icon-plus"></i>
+              </a>
+              <h3>Rumanía</h3>
+              <p>Viaxe polo país</p>
+              <div class="mask"></div>
+            </div>
+          </li>
+          <li class="span4 mix eventos">
+            <div class="thumbnail">
+              <img src="images/Portfolio06.png" width="640" height="400" alt="project 6">
+              <a href="#single-project" class="show_hide more" rel="#slidingDiv5">
+                <i class="icon-plus"></i>
+              </a>
+              <h3>Cultura galega en Cataluña</h3>
+              <p>Progama de dinamización de canto e música tradicional en Cataluña</p>
+              <div class="mask"></div>
+            </div>
+          </li>
+          <li class="span4 mix eventos">
+            <div class="thumbnail">
+              <img src="images/Portfolio07.png" width="640" height="400" alt="project 7" />
+              <a href="#single-project" class="show_hide more" rel="#slidingDiv6">
+                <i class="icon-plus"></i>
+              </a>
+              <h3>Magosto</h3>
+              <p>Animación en diversas asociaciones e pobos</p>
+              <div class="mask"></div>
+            </div>
+          </li>
+          <li class="span4 mix pobos">
+            <div class="thumbnail">
+              <img src="images/Portfolio08.png" width="640" height="400" alt="project 8">
+              <a href="#single-project" class="show_hide more" rel="#slidingDiv7">
+                <i class="icon-plus"></i>
+              </a>
+              <h3>Domingos en festa</h3>
+              <p>No local de Ourense</p>
+              <div class="mask"></div>
+            </div>
+          </li>
+          <li class="span4 mix pobos">
+            <div class="thumbnail">
+              <img src="images/Portfolio09.png" width="640" height="400" alt="project 9">
+              <a href="#single-project" class="show_hide more" rel="#slidingDiv8">
+                <i class="icon-plus"></i>
+              </a>
+              <h3>Quintela</h3>
+              <p>Visita polas festas</p>
+              <div class="mask"></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- Portfolio section end -->
+  <!-- About us section start -->
+  <div class="section primary-section" id="about">
+    <div class="triangle"></div>
+    <div class="container">
+      <div class="title">
+        <h1>Quen somos?</h1>
+        <p>Todo esto non sería posible sen o traballo desta xente.</p>
+      </div>
+      <div class="row-fluid team">
+        <div class="span4" id="first-person">
+          <div class="thumbnail">
+            <img src="images/Team1.png" height="348" width="348" alt="team 1">
+            <h3>José Antonio Viñas</h3>
+            <!--<ul class="social">
                                 <li>
                                     <a href="">
                                         <span class="icon-facebook-circled"></span>
@@ -485,17 +497,17 @@
                                     </a>
                                 </li>
                             </ul>-->
-                            <div class="mask">
-                                <h2>Director</h2>
-                                <p>Fundador do proxecto e actual director.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="span4" id="second-person">
-                        <div class="thumbnail">
-                            <img src="images/Team2.png" height="348" width="348" alt="team 1">
-                            <h3>Queixumes dos pinos</h3>
-                            <!--<ul class="social">
+            <div class="mask">
+              <h2>Director</h2>
+              <p>Fundador do proxecto e actual director.</p>
+            </div>
+          </div>
+        </div>
+        <div class="span4" id="second-person">
+          <div class="thumbnail">
+            <img src="images/Team2.png" height="348" width="348" alt="team 1">
+            <h3>Queixumes dos pinos</h3>
+            <!--<ul class="social">
                                 <li>
                                     <a href="">
                                         <span class="icon-facebook-circled"></span>
@@ -512,17 +524,17 @@
                                     </a>
                                 </li>
                             </ul>-->
-                            <div class="mask">
-                                <h2>O grupo</h2>
-                                <p>Os alumnos e alumnas do grupo viaxan e participan en tódolos eventos. Facendo posible que este soño chegue a facerse realidade.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="span4" id="third-person">
-                        <div class="thumbnail">
-                            <img src="images/Team3.png" height="348" width="348" alt="team 1">
-                            <h3>Pandereteiras</h3>
-                            <!--<ul class="social">
+            <div class="mask">
+              <h2>O grupo</h2>
+              <p>Os alumnos e alumnas do grupo viaxan e participan en tódolos eventos. Facendo posible que este soño chegue a facerse realidade.</p>
+            </div>
+          </div>
+        </div>
+        <div class="span4" id="third-person">
+          <div class="thumbnail">
+            <img src="images/Team3.png" height="348" width="348" alt="team 1">
+            <h3>Pandereteiras</h3>
+            <!--<ul class="social">
                                 <li>
                                     <a href="">
                                         <span class="icon-facebook-circled"></span>
@@ -539,221 +551,221 @@
                                     </a>
                                 </li>
                             </ul>-->
-                            <div class="mask">
-                                <h2>Subgrupo</h2>
-                                <p>Ó grupo de pandereteiras é máis reducido pero ten membros que non actúan co resto de Queixumes dos Pinos</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="about-text centered">
-                    <h3>Sobre o grupo</h3>
-                    <p>Queixumes dos Pinos foi fundado no ano 1994 por José Antonio Viñas na Derrasa (Pereiro de Aguiar) co obxectivo  de recoller, difundir e impulsar o folclore popular galego. </p>
-                    <p>Ó longo de toda a súa traxectoria, a agrupación leva traballado infinidade de coreografías e temas de carácter tradicional que veu plasmando en distintos espectáculos que os seus compoñentes presentaron nos mellores escenarios de Ourense, así como noutros lugares da xeografía galega. Ademais, Queixumes dos pinos leva anos percorrendo toda Europa, levando os seus espectáculs de gran riqueza musical por países como Finlandia, Chipre, Rumanía, Alemania, etc. converténdose así en auténticos embaixadores da tradición cultural do noso país fóra das nosas fronteiras.</p>
-                </div>
-                <h3>Ensinanzas</h3>
-                <div class="row-fluid">
-                    <div class="span6">
-                        <ul class="skills">
-                            <li>
-                                <span class="bar" data-width="0%"></span>
-                                <h3>Danza</h3>
-                            </li>
-                            <li>
-                                <span class="bar" data-width="0%"></span>
-                                <h3>Canto e pandereta</h3>
-                            </li>
-                            <li>
-                                <span class="bar" data-width="0%"></span>
-                                <h3>Gaita</h3>
-                            </li>
-                            <li>
-                                <span class="bar" data-width="0%"></span>
-                                <h3>Percusión</h3>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="span6">
-                        <div class="highlighted-box center">
-                            <h1>Mantendo as tradicións</h1>
-                            <p>O grupo ofrece clases das típicas medios para a creación da música popular galega, especianlizandose en cada un dos instrumentos así como as cantareiras e cantareiros do grupo, que se complementan coa pandereta.</p>
-                            <!--<button class="button button-sp">Join Us</button>-->
-                        </div>
-                    </div>
-                </div>
+            <div class="mask">
+              <h2>Subgrupo</h2>
+              <p>Ó grupo de pandereteiras é máis reducido pero ten membros que non actúan co resto de Queixumes dos Pinos</p>
             </div>
+          </div>
         </div>
-        <!-- About us section end -->
-        <div class="section secondary-section">
-            <div class="triangle"></div>
-            <div class="container centered">
-                <p class="large-text">Estamos creando un novo calendario para que poidas consultar máis facilmente as nosas actuacións. Polo de agora podes ver as últimas noticias na páxina de Facebook.</p>
-                <a href="https://www.facebook.com/QueixumesDosPinos" class="button">Facebook</a>
-            </div>
+      </div>
+      <div class="about-text centered">
+        <h3>Sobre o grupo</h3>
+        <p>Queixumes dos Pinos foi fundado no ano 1994 por José Antonio Viñas na Derrasa (Pereiro de Aguiar) co obxectivo de recoller, difundir e impulsar o folclore popular galego. </p>
+        <p>Ó longo de toda a súa traxectoria, a agrupación leva traballado infinidade de coreografías e temas de carácter tradicional que veu plasmando en distintos espectáculos que os seus compoñentes presentaron nos mellores escenarios de Ourense, así
+          como noutros lugares da xeografía galega. Ademais, Queixumes dos pinos leva anos percorrendo toda Europa, levando os seus espectáculs de gran riqueza musical por países como Finlandia, Chipre, Rumanía, Alemania, etc. converténdose así en auténticos
+          embaixadores da tradición cultural do noso país fóra das nosas fronteiras.</p>
+      </div>
+      <h3>Ensinanzas</h3>
+      <div class="row-fluid">
+        <div class="span6">
+          <ul class="skills">
+            <li>
+              <span class="bar" data-width="0%"></span>
+              <h3>Danza</h3>
+            </li>
+            <li>
+              <span class="bar" data-width="0%"></span>
+              <h3>Canto e pandereta</h3>
+            </li>
+            <li>
+              <span class="bar" data-width="0%"></span>
+              <h3>Gaita</h3>
+            </li>
+            <li>
+              <span class="bar" data-width="0%"></span>
+              <h3>Percusión</h3>
+            </li>
+          </ul>
         </div>
-        <!-- Client section start -->
-        <!-- Client section start -->
-        <div id="clients">
-            <div class="section primary-section">
-                <div class="triangle"></div>
-                <div class="container">
-                    <div class="title">
-                        <h1>A bugalla</h1>
-                        <p>Queixumes dos Pinos participa na creación da Bugalla, unha revista de caracter internacional para a promoción da nosa cultura.</p>
-                    </div>
-                    <div class="row">
-                        <div class="span4">
-                            <div class="testimonial">
-                                <p>"Unha refrescante travesía ó longo cultura galega guiada pola man dunha prosa que esperta os sentimentos de morriña en aqueles corazóns que se atopan lonxe do seu fogar."</p>
-                                <div class="whopic">
-                                    <div class="arrow"></div>
-                                    <img src="images/Client1.png" width="50" height="50" class="centered" alt="client 1">
-                                    <strong>Adrián González
-                                        <small>Traductor</small>
-                                    </strong>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="span4">
-                            <div class="testimonial">
-                                <p>"Co enfoque cultural que ten a revista e coa axuda dos autores co seu coñecemento sobre o Folklore esta revista ten un aspecto único. Sen dúbida axudará a promocionarnos no exterior."</p>
-                                <div class="whopic">
-                                    <div class="arrow"></div>
-                                    <img src="images/Client2.png" width="50" height="50" class="centered" alt="client 2">
-                                    <strong>Hector López
-                                        <small>Lector</small>
-                                    </strong>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="span4">
-                            <div class="testimonial">
-                                <p>"Tras moitos anos vivindo fóra, unha copia da primerira edición chegou ata mín, dende aquel momento quedei namorado da paixón que se palpaba nos textos. Non podo agardar ó seguinte."</p>
-                                <div class="whopic">
-                                    <div class="arrow"></div>
-                                    <img src="images/Client3.png" width="50" height="50" class="centered" alt="client 3">
-                                    <strong>Anónimo
-                                        <!--<small>Bailarín</small>-->
-                                    </strong>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <p class="testimonial-text">
-                        Para máis detalles pódese visitar a súa páxina en <a href="https://www.facebook.com/revistaabugalla"> Facebook </a>
-                    </p>
-                </div>
-            </div>
+        <div class="span6">
+          <div class="highlighted-box center">
+            <h1>Mantendo as tradicións</h1>
+            <p>O grupo ofrece clases das típicas medios para a creación da música popular galega, especianlizandose en cada un dos instrumentos así como as cantareiras e cantareiros do grupo, que se complementan coa pandereta.</p>
+            <!--<button class="button button-sp">Join Us</button>-->
+          </div>
         </div>
-        <div class="section third-section">
-            <div class="container centered">
-                <div class="sub-section">
-                    <div class="title clearfix">
-                        <div class="pull-left">
-                            <h3>Coa colaboración de</h3>
-                        </div>
-                        <ul class="client-nav pull-right">
-                            <li id="client-prev"></li>
-                            <li id="client-next"></li>
-                        </ul>
-                    </div>
-                    <ul class="row client-slider" id="clint-slider">
-                        <li>
-                            <a href="">
-                                <img src="images/clients/ClientLogo01.png" width="200" height="100" alt="client logo 1">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src="images/clients/ClientLogo02.png" width="200" height="100" alt="client logo 2">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src="images/clients/ClientLogo03.png" width="200" height="100" alt="client logo 3">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src="images/clients/ClientLogo04.png" width="200" height="100" alt="client logo 4">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src="images/clients/ClientLogo05.png" width="200" height="100" alt="client logo 5">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src="images/clients/ClientLogo06.png" width="200" height="100" alt="client logo 6">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src="images/clients/ClientLogo07.png" width="200" height="100" alt="client logo 7">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+      </div>
+    </div>
+  </div>
+  <!-- About us section end -->
+  <div class="section secondary-section">
+    <div class="triangle"></div>
+    <div class="container centered">
+      <p class="large-text">Estamos creando un novo calendario para que poidas consultar máis facilmente as nosas actuacións. Polo de agora podes ver as últimas noticias na páxina de Facebook.</p>
+      <a href="https://www.facebook.com/QueixumesDosPinos" class="button">Facebook</a>
+    </div>
+  </div>
+  <!-- Client section start -->
+  <!-- Client section start -->
+  <div id="clients">
+    <div class="section primary-section">
+      <div class="triangle"></div>
+      <div class="container">
+        <div class="title">
+          <h1>A bugalla</h1>
+          <p>Queixumes dos Pinos participa na creación da Bugalla, unha revista de caracter internacional para a promoción da nosa cultura.</p>
         </div>
-        <!-- Price section start -->
-        <div id="price" class="section secondary-section">
-            <div class="container">
-                <div class="title">
-                    <h1>Tenda</h1>
-                    <p>Podes comprar productos de Queixumes, máis información consultando no local ou por email.</p>
-                </div>
-                <div class="price-table row-fluid">
-                <div class="span4 price-column animated fadeInDown">
-                    <h3>Camisetas</h3>
-                    <ul class="list">
-                        <li class="price">7,00€</li>
-                        <li><img src="images/camiseta.png" width="600" height="700"></img></li>
-                    </ul>
-                    <!--<a href="#" class="button button-ps">BUY</a>-->
-                </div>
-                <div class="span4 price-column animated fadeInDown">
-                    <h3>Sudaderas</h3>
-                    <ul class="list">
-                        <li class="price">22,00€</li>
-                        <li><img src="images/sudadera.png" width="600" height="700"></img></li>
-                    </ul>
-                    <!--<a href="#" class="button button-ps">BUY</a>-->
-                </div>
-                <div class="span4 price-column animated fadeInDown">
-                    <h3>Abalorios</h3>
-                    <ul class="list">
-                        <li class="price">3,00€ / 5,00€</li>
-                        <li><img src="images/abalorios.png" width="600" height="700"></img></li>
-                    </ul>
-                    <!--<a href="#" class="button button-ps">BUY</a>-->
-                </div>
+        <div class="row">
+          <div class="span4">
+            <div class="testimonial">
+              <p>"Unha refrescante travesía ó longo cultura galega guiada pola man dunha prosa que esperta os sentimentos de morriña en aqueles corazóns que se atopan lonxe do seu fogar."</p>
+              <div class="whopic">
+                <div class="arrow"></div>
+                <img src="images/Client1.png" width="50" height="50" class="centered" alt="client 1">
+                <strong>Adrián González <small>Traductor</small></strong>
+              </div>
             </div>
-                <!--<div class="centered">
+          </div>
+          <div class="span4">
+            <div class="testimonial">
+              <p>"Co enfoque cultural que ten a revista e coa axuda dos autores co seu coñecemento sobre o Folklore esta revista ten un aspecto único. Sen dúbida axudará a promocionarnos no exterior."</p>
+              <div class="whopic">
+                <div class="arrow"></div>
+                <img src="images/Client2.png" width="50" height="50" class="centered" alt="client 2">
+                <strong>Hector López<small>Lector</small></strong>
+              </div>
+            </div>
+          </div>
+          <div class="span4">
+            <div class="testimonial">
+              <p>"Tras moitos anos vivindo fóra, unha copia da primerira edición chegou ata mín, dende aquel momento quedei namorado da paixón que se palpaba nos textos. Non podo agardar ó seguinte."</p>
+              <div class="whopic">
+                <div class="arrow"></div>
+                <img src="images/Client3.png" width="50" height="50" class="centered" alt="client 3">
+                <strong>Anónimo<!--<small>Bailarín</small>--></strong>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="testimonial-text">
+          Para máis detalles pódese visitar a súa páxina en <a href="https://www.facebook.com/revistaabugalla"> Facebook </a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="section third-section">
+    <div class="container centered">
+      <div class="sub-section">
+        <div class="title clearfix">
+          <div class="pull-left">
+            <h3>Coa colaboración de</h3>
+          </div>
+          <ul class="client-nav pull-right">
+            <li id="client-prev"></li>
+            <li id="client-next"></li>
+          </ul>
+        </div>
+        <ul class="row client-slider" id="clint-slider">
+          <li>
+            <a href="">
+              <img src="images/clients/ClientLogo01.png" width="200" height="100" alt="client logo 1">
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="images/clients/ClientLogo02.png" width="200" height="100" alt="client logo 2">
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="images/clients/ClientLogo03.png" width="200" height="100" alt="client logo 3">
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="images/clients/ClientLogo04.png" width="200" height="100" alt="client logo 4">
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="images/clients/ClientLogo05.png" width="200" height="100" alt="client logo 5">
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="images/clients/ClientLogo06.png" width="200" height="100" alt="client logo 6">
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="images/clients/ClientLogo07.png" width="200" height="100" alt="client logo 7">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- Price section start -->
+  <div id="price" class="section secondary-section">
+    <div class="container">
+      <div class="title">
+        <h1>Tenda</h1>
+        <p>Podes comprar productos de Queixumes, máis información consultando no local ou por email.</p>
+      </div>
+      <div class="price-table row-fluid">
+        <div class="span4 price-column animated fadeInDown">
+          <h3>Camisetas</h3>
+          <ul class="list">
+            <li class="price">7,00€</li>
+            <li><img src="images/camiseta.png" width="600" height="700"></img>
+            </li>
+          </ul>
+          <!--<a href="#" class="button button-ps">BUY</a>-->
+        </div>
+        <div class="span4 price-column animated fadeInDown">
+          <h3>Sudaderas</h3>
+          <ul class="list">
+            <li class="price">22,00€</li>
+            <li><img src="images/sudadera.png" width="600" height="700"></img>
+            </li>
+          </ul>
+          <!--<a href="#" class="button button-ps">BUY</a>-->
+        </div>
+        <div class="span4 price-column animated fadeInDown">
+          <h3>Abalorios</h3>
+          <ul class="list">
+            <li class="price">3,00€ / 5,00€</li>
+            <li><img src="images/abalorios.png" width="600" height="700"></img>
+            </li>
+          </ul>
+          <!--<a href="#" class="button button-ps">BUY</a>-->
+        </div>
+      </div>
+      <!--<div class="centered">
                     <p class="price-text">We Offer Custom Plans. Contact Us For More Info.</p>
                     <a href="#contact" class="button">Contact Us</a>
                 </div>-->
-            </div>
+    </div>
+  </div>
+  <!-- Price section end -->
+  <!-- Newsletter section start -->
+  <div class="section third-section">
+    <div class="container newsletter">
+      <div class="sub-section">
+        <div class="title clearfix">
+          <div class="pull-left">
+            <h3>Pedido</h3>
+          </div>
         </div>
-        <!-- Price section end -->
-        <!-- Newsletter section start -->
-        <div class="section third-section">
-            <div class="container newsletter">
-                <div class="sub-section">
-                    <div class="title clearfix">
-                        <div class="pull-left">
-                            <h3>Pedido</h3>
-                        </div>
-                    </div>
-                </div>
-                <div id="success-subscribe" class="alert alert-success invisible">
-                    <strong>Well done!</strong>You successfully subscribet to our newsletter.</div>
-                <div class="row-fluid">
-                    <div > <!--class="span5"-->
-                        <p>Estamos traballando para poder enviar os productos da nosa tenda á túa casa, mantente atento ás redes sociais para ter máis detalle.</p>
-                    </div>
-                    <!--<div class="span7">
+      </div>
+      <div id="success-subscribe" class="alert alert-success invisible">
+        <strong>Well done!</strong>You successfully subscribet to our newsletter.</div>
+      <div class="row-fluid">
+        <div>
+          <!--class="span5"-->
+          <p>Estamos traballando para poder enviar os productos da nosa tenda á túa casa, mantente atento ás redes sociais para ter máis detalle.</p>
+        </div>
+        <!--<div class="span7">
                     <form action="//ceca.us10.list-manage.com/subscribe/post?u=93c53aebd14896af588b33a52&amp;id=238c67f1d9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate inline-form" target="_blank" novalidate>
                     <input type="email" value="" name="EMAIL"  class="span8 required email" id="mce-EMAIL">
                     <button type="submit"  name="subscribe" id="mc-embedded-subscribe"class="button button-sp">Subscribe</button>
@@ -761,28 +773,26 @@
                     <div style="position: absolute; left: -5000px;"><input type="text" name="b_93c53aebd14896af588b33a52_238c67f1d9" tabindex="-1" value=""></div>
                     </form>
                   </div>-->
-
-
-                    </div>
-                </div>
-            </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- Newsletter section end -->
+  <!-- Contact section start -->
+  <div id="contact" class="contact">
+    <div class="section secondary-section">
+      <div class="container">
+        <div class="title">
+          <h1>Contáctanos</h1>
+          <p>Estamos encantados de atender en calquera cousa.</p>
         </div>
-        <!-- Newsletter section end -->
-        <!-- Contact section start -->
-        <div id="contact" class="contact">
-            <div class="section secondary-section">
-                <div class="container">
-                    <div class="title">
-                        <h1>Contáctanos</h1>
-                        <p>Estamos encantados de atender en calquera cousa.</p>
-                    </div>
-                </div>
-                <div class="map-wrapper">
-		    <a href="https://www.google.com/maps/dir/Current+Location/42.339140,-7.872633">
-                    <div class="map-canvas" id="map-canvas">Cargando mapa...</div>
-                    <div class="container">
-                        <div class="row-fluid">
-                            <!--<div class="span5 contact-form centered">
+      </div>
+      <div class="map-wrapper">
+        <a href="https://www.google.com/maps/dir/Current+Location/42.339140,-7.872633">
+          <div class="map-canvas" id="map-canvas">Cargando mapa...</div>
+          <div class="container">
+            <div class="row-fluid">
+              <!--<div class="span5 contact-form centered">
                                 <h3>Deixa unha mesaxe</h3>
                                 <div id="successSend" class="alert alert-success invisible">
                                     <strong>Well done!</strong>Your message has been sent.</div>
@@ -813,33 +823,33 @@
                                     </div>
                                 </form>
                             </div>-->
-                        </div>
-                    </div>
-		    </a>
-                </div>
-                <div class="container">
-                    <div class="span9 center contact-info">
-                        <p>Baixo nº25, Rúa Zurbarán, Ourense, España, 32002</p>
-                        <p class="info-mail">qdp.our@gmail.com</p>
-                        <p>+34 988 104 367</p>
-                        <p>+34 686 961 540</p>
-                        <div class="title">
-                            <h3>Síguenos</h3>
-                        </div>
-                    </div>
-                    <div class="row-fluid centered">
-                        <ul class="social">
-                            <li>
-                                <a href="https://www.facebook.com/QueixumesDosPinos">
-                                    <span class="icon-facebook-circled"></span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/queixumespinos">
-                                    <span class="icon-twitter-circled"></span>
-                                </a>
-                            </li>
-                            <!--<li>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="container">
+        <div class="span9 center contact-info">
+          <p>Baixo nº25, Rúa Zurbarán, Ourense, España, 32002</p>
+          <p class="info-mail">qdp.our@gmail.com</p>
+          <p>+34 988 104 367</p>
+          <p>+34 686 961 540</p>
+          <div class="title">
+            <h3>Síguenos</h3>
+          </div>
+        </div>
+        <div class="row-fluid centered">
+          <ul class="social">
+            <li>
+              <a href="https://www.facebook.com/QueixumesDosPinos">
+                <span class="icon-facebook-circled"></span>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/queixumespinos">
+                <span class="icon-twitter-circled"></span>
+              </a>
+            </li>
+            <!--<li>
                                 <a href="">
                                     <span class="icon-linkedin-circled"></span>
                                 </a>
@@ -859,43 +869,83 @@
                                     <span class="icon-gplus-circled"></span>
                                 </a>
                             </li>-->
-                        </ul>
-                    </div>
-                </div>
-            </div>
+          </ul>
         </div>
-        <!-- Contact section edn -->
-        <!-- Footer section start -->
-        <div class="footer">
-            <p><a href="https://github.com/agonbar">Adrián González Barbosa</a> <strong>&copy;</strong> 2015 Queixumes dos Pinos</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+  <div id="blueimp-gallery" class="blueimp-gallery" data-use-bootstrap-modal="false">
+    <!-- The container for the modal slides -->
+    <div class="slides"></div>
+    <!-- Controls for the borderless lightbox -->
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+    <!-- The modal dialog, which will be used to wrap the lightbox content -->
+    <div class="modal fade">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" aria-hidden="true">&times;</button>
+            <h4 class="modal-title"></h4>
+          </div>
+          <div class="modal-body next"></div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default pull-left prev">
+              <i class="glyphicon glyphicon-chevron-left"></i> Previous
+            </button>
+            <button type="button" class="btn btn-primary next">
+              Next
+              <i class="glyphicon glyphicon-chevron-right"></i>
+            </button>
+          </div>
         </div>
-        <!-- Footer section end -->
-        <!-- ScrollUp button start -->
-        <div class="scrollup">
-            <a href="#">
-                <i class="icon-up-open"></i>
-            </a>
-        </div>
-        <!-- ScrollUp button end -->
-        <!-- Include javascript -->
-        <script src="js/jquery.js"></script>
-        <script type="text/javascript" src="js/jquery.mixitup.js"></script>
-        <script async type="text/javascript" src="js/bootstrap.js"></script>
-        <script async type="text/javascript" src="js/modernizr.custom.js"></script>
-        <script type="text/javascript" src="js/jquery.bxslider.js"></script>
-        <script type="text/javascript" src="js/jquery.cslider.js"></script>
-        <script type="text/javascript" src="js/jquery.placeholder.js"></script>
-        <script type="text/javascript" src="js/jquery.inview.js"></script>
-        <script type="text/javascript" src="js/map.js"></script>
-        <!-- css3-mediaqueries.js for IE8 or older -->
-        <!--[if lt IE 9]>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Contact section edn -->
+  <!-- Footer section start -->
+  <div class="footer">
+    <p><a href="https://github.com/agonbar">Adrián González Barbosa</a> <strong>&copy;</strong> 2015 Queixumes dos Pinos</p>
+  </div>
+  <!-- Footer section end -->
+  <!-- ScrollUp button start -->
+  <div class="scrollup">
+    <a href="#">
+      <i class="icon-up-open"></i>
+    </a>
+  </div>
+  <!-- ScrollUp button end -->
+  <!-- Include javascript -->
+  <script src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.mixitup.js"></script>
+  <script async type="text/javascript" src="js/bootstrap.js"></script>
+  <script async type="text/javascript" src="js/modernizr.custom.js"></script>
+  <script type="text/javascript" src="js/jquery.bxslider.js"></script>
+  <script type="text/javascript" src="js/jquery.cslider.js"></script>
+  <script type="text/javascript" src="js/jquery.placeholder.js"></script>
+  <script type="text/javascript" src="js/jquery.inview.js"></script>
+  <script type="text/javascript" src="js/map.js"></script>
+
+  <script type="text/javascript" src="js/jquery.blueimp-gallery.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap-image-gallery.min.js"></script>
+  <!-- css3-mediaqueries.js for IE8 or older -->
+  <!--[if lt IE 9]>
             <script src="js/respond.min.js"></script>
         <![endif]-->
-        <script async  type="text/javascript" src="js/app.js"></script>
-	<!--<div id="google_translate_element"></div><script type="text/javascript">
+  <script async type="text/javascript" src="js/app.js"></script>
+  <!--<div id="google_translate_element"></div><script type="text/javascript">
 	function googleTranslateElementInit() {
 	  new google.translate.TranslateElement({pageLanguage: 'gl', layout: google.translate.TranslateElement.FloatPosition.BOTTOM_RIGHT}, 'google_translate_element');
 	}
 	</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>-->
-    </body>
+</body>
+
 </html>

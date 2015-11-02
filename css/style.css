@@ -899,3 +899,10 @@ p {
         margin-top:30px;
     }
 }
+.secundaria {
+  margin:5px;
+  display: inline-block;
+  overflow: hidden;
+  width:47%;
+  border-radius: 50%;
+}
