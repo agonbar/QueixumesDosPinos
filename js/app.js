@@ -304,6 +304,8 @@ Sand mail
     hideText: 'Close'
   });
 
+  $('div.toggleDiv5').show();
+
   /************************
   Animate elements
   *************************/
