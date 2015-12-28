@@ -906,3 +906,7 @@ p {
   width:47%;
   border-radius: 50%;
 }
+
+#portfolio-grid > li {
+  height: 340px;
+}
